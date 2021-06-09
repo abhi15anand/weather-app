@@ -1,0 +1,133 @@
+* {
+  font-family: "Nunito Sans", "Helvetica", "Arial", sans-serif;
+}
+
+body {
+  background-color: #ebebeb;
+}
+
+.header {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.container {
+  height: 400px;
+  padding: 30px;
+}
+
+.select-region {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.select-region-span {
+  margin-right: 40px;
+  font-size: 22px;
+}
+
+.select-region-textbox {
+  margin-right: 40px !important;
+}
+
+.select-region-textbox:hover {
+  cursor: text !important;
+}
+
+/* .select-region input {
+  padding: 10px;
+  font-size: 22px;
+  border-radius: 3px;
+  border: 1px solid;
+  background: #dcf0ff;
+} */
+
+.weather-type {
+  display: flex;
+  align-items: center;
+}
+
+.weather-type .icon {
+  width: 70px;
+}
+
+.weather-type .text {
+  font-size: 35px;
+  text-transform: capitalize;
+}
+
+.weather-type-wind-speed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.other-details-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.temperature {
+  display: flex;
+  align-items: center;
+}
+
+.temperature .actual {
+  padding: 20px 0;
+  font-size: 35px;
+  margin-right: 30px;
+}
+
+.temperature .feels-like {
+  font-size: 16px;
+  color: #f8dbc3;
+}
+
+.temperature .feels-like .value {
+  font-size: 30px;
+}
+
+.humidity {
+  font-size: 16px;
+}
+
+.weather-card {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 450px;
+  padding: 20px 25px;
+  color: white;
+  /* background-color: #4e9ced; */
+  background-image: linear-gradient(315deg, #007bff, #048cccb8);
+  border-radius: 5px;
+  border: 1px solid #0000002e;
+  box-shadow: 1px 3px 8px 2px #2221206e;
+}
+
+.weather-card p {
+  margin: 0;
+  font-size: 28px;
+}
+
+.weather-card .date {
+  color: #bfdcf6;
+  font-weight: bold;
+  padding-bottom: 8px;
+  border-bottom: 1px solid white;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
